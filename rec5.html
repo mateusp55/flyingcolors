@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flying Colors</title>
+
+	<!---styles--->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+	<!-----JS----->
+	<script src="footerheight.js"></script>  
+	
+</head>
+<body>
+	<div id="containerGeneral">
+	<div id="header-s">
+		<div class="container-s">
+			<a href="index.html"><img src="img/logo.svg"/ width="90px" class="logo-s"></a>
+			<div class="pages">
+				<a href="rec1.html"><div class="page menu-cat-yellow">1</div></a>
+				<a href="rec2.html"><div class="page menu-cat-yellow">2</div></a>
+				<a href="rec3.html"><div class="page menu-cat-pink">3</div></a>
+				<a href="rec4.html"><div class="page menu-cat-pink">4</div></a>
+				<a href="rec5.html"><div class="page-current menu-cat-pink">5</div></a>
+				<a href="rec6.html"><div class="page menu-cat-pink">6</div></a>
+				<a href="rec7.html"><div class="page menu-cat-pink">7</div></a>
+				<a href="rec8.html"><div class="page menu-cat-blue">8</div></a>
+				<a href="rec9.html"><div class="page menu-cat-blue">9</div></a>
+			</div>
+			<a class="a2a_dd" href="https://www.addtoany.com/share"><div class="share-button"><img src="img/share.svg"> </div></a>
+			<script async src="https://static.addtoany.com/menu/page.js"></script>
+		</div>
+
+	</div>
+	<div id="containertext">
+
+		<p class="rec-title pink-font"><strong>5.</strong> Compare the simulated versions with the original version of your game</p>
+
+		<p>One of the advantages of using color blindness simulations to identify problems is the possibility of comparing simulated versions of the interface with the original version, without simulation. This can be a good starting point to look for color accessibility problems, guided by the questions: are the elements I see in the original version also visible in the simulated versions? Do elements that are different in the original version look the same in the simulated version?</p>
+
+		<div class="scenario">
+			<h1>PROBLEM SCENARIO</h1>
+
+			<p>You use color blindness simulations to look for color accessibility problems in your games, however, you have difficulty identifying problems even with the help of guidelines.</p>
+		</div>
+
+		<p>Our study demonstrates that participants using simulations were able to identify a greater variety of color accessibility problems than participants with color blindness. This may have happened because the simulations show the approximate effects of more than one type of color blindness, while participants with color blindness could only rely on their own vision to identify problems.</p>
+
+		<div class="scenario">
+			<h1>USE SCENARIO</h1>
+
+			<p>You are developing a game interface and decide to check for color accessibility problems using a color blindness simulation. You use a simulation on your desktop screen to identify problems and make adjustments in real time. You switch between the original unfiltered view and each of the simulated views, initially looking at the interface in its entirety. Then, you do the same but now observing each element of the interface individually (e.g.: buttons, characters, obstacles). You find some elements that are heavily affected by the simulations and make adjustments to the colors used to improve contrast.</p>
+		</div>
+
+		<div class="note-pink"><p>Remember that the <strong>earlier</strong> in the process color accessibility problems are identified and resolved, the lower their cost will be in terms of time and project resources.</p></div>
+
+
+
+
+		<h1>TIPS</h1>
+
+		
+
+		<ul>
+			<li>Initially look for visualization problems in the interface in general by analyzing the relationships between interface elements. E.g.: “This button, in the protanopia simulation, is exactly the same color as the main character's clothes. Could this cause any confusion?”</li>
+			<li>It is also important to analyze the elements individually, checking the contrast with the different backgrounds that may appear during the game. E.g.: “The main character’s clothing blends into one of the backgrounds when viewed with the deuteranopia simulation.”</li>
+			<li>Take advantage of comparing the simulated versions with the original version of the game to try to identify parts of the interface that are invisible to players with color blindness. If identified, these areas should be explored in tests with players with color blindness (more information in <a href="rec8.html"> recommendation 8</a>)</li>
+			<li>Remember, the interface of a mobile game is not usually static and will not be used on the desktop. Whenever possible, try to test the game in its playable version, to also take into account animations and transitions, and on the target device.</li>
+			<li>If you are unsure whether there is sufficient contrast in the chosen colors, you can use contrast analysis tools in both the original and simulated versions of your game.</li>
+			<li>Take note of any pain points identified through the simulations to consult players with color blindness. Even if you have modified the colors to improve visualization or differentiation, it is important to confirm with the players that the changes made were sufficient. More information in <a href="rec7.html"> Recommendation 7</a>.</li>
+		</ul>
+
+		<h1>WHAT NOT TO DO</h1>
+		<ul>
+			<li>Don't just analyze graphical elements in isolation. Many chromatic accessibility problems are related to the differentiation of elements during gameplay.</li>
+		</ul>
+
+
+		<div id="footercontent">
+		<a href="rec4.html"><div class="button-line"><img src="img/arrow_back.svg" width="15px" height="15px"></div></a>
+		<a href="rec6.html"><div class="button-line">Next<img src="img/arrow_forward.svg" width="15px" height="15px"></div></a>
+		</div>
+
+
+	</div>
+	</div>
+
+	<div class="placeholder"></div>
+	<footer>
+		<div id="footercontent">
+			<div class="secfooter">
+				<p>These recommendations were the main outcome of an extensive research on the tools used to create chromatically accessible games, conducted between 2020 and 2023 by:</p>
+				<div class="authors">
+					<div class="author"><div class="photo" id="mateus"></div>
+						<strong>Mateus Pinheiro</strong><br/>
+						<span class="role">Main researcher</span>
+					</div>
+					<div class="author"><div class="photo" id="ticianne"></div>
+						<strong>Dr. Ticianne Darin</strong>
+						<span class="role">Surpevisor</span>
+					</div>
+					<div class="author"><div class="photo" id="windson"></div>
+						<strong>Dr. Windson Viana</strong>
+						<span class="role">Surpevisor</span>
+					</div>
+				</div>
+			</div>
+			<div class="secfooter" id="readmore">
+				<p class="text">Wanna know more about the research?</p>
+				<a href="https://dl.acm.org/doi/10.1145/3611026" target="_blank"><div class="button">Read the full paper</div></a>
+				<div class="award">
+					<img src="img/star.svg" width="15px" height="15px">
+					<p>Best paper at CHIPLAY 2023</p>
+				</div>
+			</div>
+		</div>
+		<img src="img/logos.png" class="logos">
+	</footer>
+	
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flying Colors</title>
+
+	<!---styles--->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+	<!-----JS----->
+	<script src="footerheight.js"></script>  
+	
+</head>
+<body>
+	<div id="containerGeneral">
+	<div id="header-s">
+		<div class="container-s">
+			<a href="index.html"><img src="img/logo.svg"/ width="90px" class="logo-s"></a>
+			<div class="pages">
+				<a href="rec1.html"><div class="page menu-cat-yellow">1</div></a>
+				<a href="rec2.html"><div class="page menu-cat-yellow">2</div></a>
+				<a href="rec3.html"><div class="page menu-cat-pink">3</div></a>
+				<a href="rec4.html"><div class="page menu-cat-pink">4</div></a>
+				<a href="rec5.html"><div class="page menu-cat-pink">5</div></a>
+				<a href="rec6.html"><div class="page-current menu-cat-pink">6</div></a>
+				<a href="rec7.html"><div class="page menu-cat-pink">7</div></a>
+				<a href="rec8.html"><div class="page menu-cat-blue">8</div></a>
+				<a href="rec9.html"><div class="page menu-cat-blue">9</div></a>
+			</div>
+			<a class="a2a_dd" href="https://www.addtoany.com/share"><div class="share-button"><img src="img/share.svg"> </div></a>
+			<script async src="https://static.addtoany.com/menu/page.js"></script>
+		</div>
+
+	</div>
+	<div id="containertext">
+
+		<p class="rec-title pink-font"><strong>6.</strong> Keep an eye out for visual feedback and other elements that aren't always visible on the game screen</p>
+
+		<p>Digital games are interactive products and, often, parts of their interfaces are only displayed if the player makes certain choices or makes mistakes. It is important that all these small parts are chromatically accessible.</p>
+
+		<p>As designers and developers of the analyzed game, it is easier to know where and how to access all these corners of the interface and garantee that all possibilities are being analyzed. </p>
+
+		<div class="scenario">
+			<h1>PROBLEM SCENARIO</h1>
+
+			<p>You usually test your games using color blindness simulations to look for color accessibility problems, however, you end up forgetting certain parts of the interface that are not always visible. For example, you were unable to identify an issue in visual feedback because it only appears when you lose a life.</p>
+		</div>
+
+		<p>We tested the identification of chromatic accessibility problems in a mobile game prototype and most of the problems that were not identified by participants were placed in visual feedbacks that were only displayed when players collected spoiled fruits or were attacked by an enemy (see image below). This was the case for both participants with color blindness and designer and developers with typical color vision (using color blindness simulations).</p>
+
+		<img src="img/recom6.png">
+
+		<p>When bumping into an enemy, the player loses a life, the main character is pushed back and the screen turns red for a few seconds. Some participants in the group of designers and developers, because they had not bumped into the enemies, were unable to identify the feedback. During interviews conduted after the test, other participants claimed to “not have paid attention” to those parts of the interface. Meanwhile, participants with color blindness stated that they did not notice the color feedback, being able to identify the damage only because the main character is pushed backwards.</p>
+
+		<div class="scenario">
+			<h1>USE SCENARIO</h1>
+
+			<p>You are analyzing a playable prototype of your mobile game with a color blindness simulation. In order not to forget any part of the game that needs to be analyzed, you and your team created a list. You start the analysis by playing the game freely and taking note of the problems you identify along the way. Then, you start to explore more specific parts of the interface that didn't come up in your previous games (e.g.: player defeat screen, powerups, damage visual feedback).</p>
+		</div>
+
+		<h1>TIPS</h1>
+
+		
+
+		<ul>
+			<li>Even though you have already created and analyzed your game's assets using simulations, it is still worth testing again how colors behave in the context of a playable prototype. During gameplay, factors such as rush, animations and settings of the device used can generate new problems that did not appear previously.</li>
+			<li>Create a list of interface elements that need to be checked for color accessibility. This list can be used during an inspection with color blindness simulations.</li>
+			<li>Pay special attention to visual feedback. They are important resources for the player to understand what is happening during gameplay.</li>
+			<li>When planing the test (both with simulations and with players), try to include success and failure scenarios so that all feedback is experienced.</li>
+		</ul>
+
+
+		<div id="footercontent">
+		<a href="rec5.html"><div class="button-line"><img src="img/arrow_back.svg" width="15px" height="15px"></div></a>
+		<a href="rec7.html"><div class="button-line">Next<img src="img/arrow_forward.svg" width="15px" height="15px"></div></a>
+		</div>
+
+
+	</div>
+	</div>
+
+	<div class="placeholder"></div>
+	<footer>
+		<div id="footercontent">
+			<div class="secfooter">
+				<p>These recommendations were the main outcome of an extensive research on the tools used to create chromatically accessible games, conducted between 2020 and 2023 by:</p>
+				<div class="authors">
+					<div class="author"><div class="photo" id="mateus"></div>
+						<strong>Mateus Pinheiro</strong><br/>
+						<span class="role">Main researcher</span>
+					</div>
+					<div class="author"><div class="photo" id="ticianne"></div>
+						<strong>Dr. Ticianne Darin</strong>
+						<span class="role">Surpevisor</span>
+					</div>
+					<div class="author"><div class="photo" id="windson"></div>
+						<strong>Dr. Windson Viana</strong>
+						<span class="role">Surpevisor</span>
+					</div>
+				</div>
+			</div>
+			<div class="secfooter" id="readmore">
+				<p class="text">Wanna know more about the research?</p>
+				<a href="https://dl.acm.org/doi/10.1145/3611026" target="_blank"><div class="button">Read the full paper</div></a>
+				<div class="award">
+					<img src="img/star.svg" width="15px" height="15px">
+					<p>Best paper at CHIPLAY 2023</p>
+				</div>
+			</div>
+		</div>
+		<img src="img/logos.png" class="logos">
+	</footer>
+	
+</body>
+</html>
