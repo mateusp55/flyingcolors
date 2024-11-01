@@ -108,6 +108,11 @@ td{
   padding: 15px 30px 15px 30px;
 }
 
+.tableContainer{
+	width: inherit;
+	overflow-x: scroll;
+}
+
 
 .m-only{
 	display: none;
@@ -619,18 +624,38 @@ footer{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+	#containerGeneral{
+		padding: 20px;
+	}
+
 	.m-only{
 		display: flex;
 	}
 
 	#header{
 		background-color: #0C2E4D;
-		background-size: auto 80%;
+		background-size: auto 60%;
 	}
 
 	#header-s{
-	background-size: 110%;
+	background-size: 155%;
+	}
+
+	.container{
+		gap: 20px;
+	}
+
+	.logo{
+		width: 150px;
+	}
+
+	.container-s{
+	padding: 10px 10px 10px 20px;
 }
+
+	.logo-s{
+		width: 80px;
+	}
 
 	#tagline{
 		display: none;
@@ -669,8 +694,24 @@ footer{
 }
 
 .rec-title{
-	font-size: 38px;
-	line-height: 44px;
+	font-size: 32px;
+	line-height: 38px;
+}
+
+footer{
+	position: relative;
+	}
+
+	#footercontent{
+		margin-top: 10px;
+	}
+
+	.placeholder{
+		display: none;
+	}
+
+.secfooter{
+	max-width:320px;
 }
 
 }
